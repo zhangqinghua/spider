@@ -1,10 +1,15 @@
-## 流程图
-```
-graph TD
-    A(单元测试调用HotelApi.syncRoom) --> B(syncRoom发起任务并保存数据)
-    B --> C(RoomSyncRunner执行任务)
-    C --> D(捉取酒店产品数据)
-    D --> E(将酒店产品转化为HotelRoomProduct)
-    E --> B
-    B --> A
-```
+st=>start: Start|past:>http://www.google.com[blank]
+e=>end: End:>http://www.google.com
+op1=>operation: My Operation|past
+op2=>operation: Stuff|current
+sub1=>subroutine: My Subroutine|invalid
+cond=>condition: Yes 
+or No?|approved:>http://www.baidu.com
+c2=>condition: Good idea|rejected
+io=>inputoutput: catch something...|request
+
+st->op1(right)->cond
+cond(yes, right)->c2
+cond(no)->sub1(left)->op1
+c2(yes)->io->e
+c2(no)->op2->e
