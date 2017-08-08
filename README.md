@@ -8,3 +8,11 @@
 >>>>平衡二叉树
 >>>>>满二叉树
 
+$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
+
+sdfdg
+dgdg
+dgg
+
+
+\\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\)
