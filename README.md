@@ -1,6 +1,6 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
-<script src="https://rawgithub.com/qiu-deqing/dome/master/src/dome.js"></script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 
 >数据结构
 >>树
@@ -8,4 +8,3 @@
 >>>>平衡二叉树
 >>>>>满二叉树
 
-![](http://latex.codecogs.com/gif.latex?\\frac{1}{1+sin(x)})
